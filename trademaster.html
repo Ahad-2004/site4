@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TradeMaster - Industrial Marketplace</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { background-color: #f8f9fa; }
+    .product-card { margin-bottom: 20px; }
+    .product-header { font-weight: bold; font-size: 1.2em; }
+    .section-title { 
+      margin-top: 40px; margin-bottom: 20px; 
+      border-bottom: 2px solid #ddd; padding-bottom: 10px; 
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">TradeMaster</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Suppliers</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h2 class="section-title">Steel Products</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Steel Beam 1</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> SteelCo 1<br>
+              <strong>Cost:</strong> $105 per unit<br>
+              <strong>Contact:</strong> contact1@steelco.com | +1 555-1001<br>
+              <strong>Rating:</strong> 3.5
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Steel Beam 2</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> SteelCo 2<br>
+              <strong>Cost:</strong> $110 per unit<br>
+              <strong>Contact:</strong> contact2@steelco.com | +1 555-1002<br>
+              <strong>Rating:</strong> 4.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Steel Beam 3</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> SteelCo 3<br>
+              <strong>Cost:</strong> $115 per unit<br>
+              <strong>Contact:</strong> contact3@steelco.com | +1 555-1003<br>
+              <strong>Rating:</strong> 3.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Steel Beam 4</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> SteelCo 4<br>
+              <strong>Cost:</strong> $120 per unit<br>
+              <strong>Contact:</strong> contact4@steelco.com | +1 555-1004<br>
+              <strong>Rating:</strong> 3.5
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Steel Beam 5</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> SteelCo 5<br>
+              <strong>Cost:</strong> $125 per unit<br>
+              <strong>Contact:</strong> contact5@steelco.com | +1 555-1005<br>
+              <strong>Rating:</strong> 4.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Steel Beam 6</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> SteelCo 6<br>
+              <strong>Cost:</strong> $130 per unit<br>
+              <strong>Contact:</strong> contact6@steelco.com | +1 555-1006<br>
+              <strong>Rating:</strong> 3.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Steel Beam 7</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> SteelCo 7<br>
+              <strong>Cost:</strong> $135 per unit<br>
+              <strong>Contact:</strong> contact7@steelco.com | +1 555-1007<br>
+              <strong>Rating:</strong> 3.5
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Steel Beam 8</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> SteelCo 8<br>
+              <strong>Cost:</strong> $140 per unit<br>
+              <strong>Contact:</strong> contact8@steelco.com | +1 555-1008<br>
+              <strong>Rating:</strong> 4.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Steel Beam 9</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> SteelCo 9<br>
+              <strong>Cost:</strong> $145 per unit<br>
+              <strong>Contact:</strong> contact9@steelco.com | +1 555-1009<br>
+              <strong>Rating:</strong> 3.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Steel Beam 10</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> SteelCo 10<br>
+              <strong>Cost:</strong> $150 per unit<br>
+              <strong>Contact:</strong> contact10@steelco.com | +1 555-1010<br>
+              <strong>Rating:</strong> 3.5
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Steel Beam 11</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> SteelCo 11<br>
+              <strong>Cost:</strong> $155 per unit<br>
+              <strong>Contact:</strong> contact11@steelco.com | +1 555-1011<br>
+              <strong>Rating:</strong> 4.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Steel Beam 12</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> SteelCo 12<br>
+              <strong>Cost:</strong> $160 per unit<br>
+              <strong>Contact:</strong> contact12@steelco.com | +1 555-1012<br>
+              <strong>Rating:</strong> 3.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Steel Beam 13</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> SteelCo 13<br>
+              <strong>Cost:</strong> $165 per unit<br>
+              <strong>Contact:</strong> contact13@steelco.com | +1 555-1013<br>
+              <strong>Rating:</strong> 3.5
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Steel Beam 14</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> SteelCo 14<br>
+              <strong>Cost:</strong> $170 per unit<br>
+              <strong>Contact:</strong> contact14@steelco.com | +1 555-1014<br>
+              <strong>Rating:</strong> 4.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Steel Beam 15</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> SteelCo 15<br>
+              <strong>Cost:</strong> $175 per unit<br>
+              <strong>Contact:</strong> contact15@steelco.com | +1 555-1015<br>
+              <strong>Rating:</strong> 3.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Steel Beam 16</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> SteelCo 16<br>
+              <strong>Cost:</strong> $180 per unit<br>
+              <strong>Contact:</strong> contact16@steelco.com | +1 555-1016<br>
+              <strong>Rating:</strong> 3.5
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Steel Beam 17</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> SteelCo 17<br>
+              <strong>Cost:</strong> $185 per unit<br>
+              <strong>Contact:</strong> contact17@steelco.com | +1 555-1017<br>
+              <strong>Rating:</strong> 4.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Steel Beam 18</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> SteelCo 18<br>
+              <strong>Cost:</strong> $190 per unit<br>
+              <strong>Contact:</strong> contact18@steelco.com | +1 555-1018<br>
+              <strong>Rating:</strong> 3.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Steel Beam 19</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> SteelCo 19<br>
+              <strong>Cost:</strong> $195 per unit<br>
+              <strong>Contact:</strong> contact19@steelco.com | +1 555-1019<br>
+              <strong>Rating:</strong> 3.5
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Steel Beam 20</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> SteelCo 20<br>
+              <strong>Cost:</strong> $200 per unit<br>
+              <strong>Contact:</strong> contact20@steelco.com | +1 555-1020<br>
+              <strong>Rating:</strong> 4.0
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h2 class="section-title">Hydraulic Equipment</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Hydraulic Pump 1</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> HydroTech 1<br>
+              <strong>Cost:</strong> $105 per unit<br>
+              <strong>Contact:</strong> contact1@hydrotech.com | +1 555-1001<br>
+              <strong>Rating:</strong> 3.5
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Hydraulic Pump 2</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> HydroTech 2<br>
+              <strong>Cost:</strong> $110 per unit<br>
+              <strong>Contact:</strong> contact2@hydrotech.com | +1 555-1002<br>
+              <strong>Rating:</strong> 4.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Hydraulic Pump 3</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> HydroTech 3<br>
+              <strong>Cost:</strong> $115 per unit<br>
+              <strong>Contact:</strong> contact3@hydrotech.com | +1 555-1003<br>
+              <strong>Rating:</strong> 3.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Hydraulic Pump 4</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> HydroTech 4<br>
+              <strong>Cost:</strong> $120 per unit<br>
+              <strong>Contact:</strong> contact4@hydrotech.com | +1 555-1004<br>
+              <strong>Rating:</strong> 3.5
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Hydraulic Pump 5</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> HydroTech 5<br>
+              <strong>Cost:</strong> $125 per unit<br>
+              <strong>Contact:</strong> contact5@hydrotech.com | +1 555-1005<br>
+              <strong>Rating:</strong> 4.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Hydraulic Pump 6</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> HydroTech 6<br>
+              <strong>Cost:</strong> $130 per unit<br>
+              <strong>Contact:</strong> contact6@hydrotech.com | +1 555-1006<br>
+              <strong>Rating:</strong> 3.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Hydraulic Pump 7</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> HydroTech 7<br>
+              <strong>Cost:</strong> $135 per unit<br>
+              <strong>Contact:</strong> contact7@hydrotech.com | +1 555-1007<br>
+              <strong>Rating:</strong> 3.5
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Hydraulic Pump 8</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> HydroTech 8<br>
+              <strong>Cost:</strong> $140 per unit<br>
+              <strong>Contact:</strong> contact8@hydrotech.com | +1 555-1008<br>
+              <strong>Rating:</strong> 4.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Hydraulic Pump 9</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> HydroTech 9<br>
+              <strong>Cost:</strong> $145 per unit<br>
+              <strong>Contact:</strong> contact9@hydrotech.com | +1 555-1009<br>
+              <strong>Rating:</strong> 3.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Hydraulic Pump 10</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> HydroTech 10<br>
+              <strong>Cost:</strong> $150 per unit<br>
+              <strong>Contact:</strong> contact10@hydrotech.com | +1 555-1010<br>
+              <strong>Rating:</strong> 3.5
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Hydraulic Pump 11</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> HydroTech 11<br>
+              <strong>Cost:</strong> $155 per unit<br>
+              <strong>Contact:</strong> contact11@hydrotech.com | +1 555-1011<br>
+              <strong>Rating:</strong> 4.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Hydraulic Pump 12</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> HydroTech 12<br>
+              <strong>Cost:</strong> $160 per unit<br>
+              <strong>Contact:</strong> contact12@hydrotech.com | +1 555-1012<br>
+              <strong>Rating:</strong> 3.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Hydraulic Pump 13</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> HydroTech 13<br>
+              <strong>Cost:</strong> $165 per unit<br>
+              <strong>Contact:</strong> contact13@hydrotech.com | +1 555-1013<br>
+              <strong>Rating:</strong> 3.5
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Hydraulic Pump 14</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> HydroTech 14<br>
+              <strong>Cost:</strong> $170 per unit<br>
+              <strong>Contact:</strong> contact14@hydrotech.com | +1 555-1014<br>
+              <strong>Rating:</strong> 4.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Hydraulic Pump 15</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> HydroTech 15<br>
+              <strong>Cost:</strong> $175 per unit<br>
+              <strong>Contact:</strong> contact15@hydrotech.com | +1 555-1015<br>
+              <strong>Rating:</strong> 3.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Hydraulic Pump 16</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> HydroTech 16<br>
+              <strong>Cost:</strong> $180 per unit<br>
+              <strong>Contact:</strong> contact16@hydrotech.com | +1 555-1016<br>
+              <strong>Rating:</strong> 3.5
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Hydraulic Pump 17</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> HydroTech 17<br>
+              <strong>Cost:</strong> $185 per unit<br>
+              <strong>Contact:</strong> contact17@hydrotech.com | +1 555-1017<br>
+              <strong>Rating:</strong> 4.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Hydraulic Pump 18</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> HydroTech 18<br>
+              <strong>Cost:</strong> $190 per unit<br>
+              <strong>Contact:</strong> contact18@hydrotech.com | +1 555-1018<br>
+              <strong>Rating:</strong> 3.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Hydraulic Pump 19</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> HydroTech 19<br>
+              <strong>Cost:</strong> $195 per unit<br>
+              <strong>Contact:</strong> contact19@hydrotech.com | +1 555-1019<br>
+              <strong>Rating:</strong> 3.5
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Hydraulic Pump 20</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> HydroTech 20<br>
+              <strong>Cost:</strong> $200 per unit<br>
+              <strong>Contact:</strong> contact20@hydrotech.com | +1 555-1020<br>
+              <strong>Rating:</strong> 4.0
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h2 class="section-title">Industrial Fasteners</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Heavy-Duty Bolt 1</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> FastenPro 1<br>
+              <strong>Cost:</strong> $105 per unit<br>
+              <strong>Contact:</strong> contact1@fastenpro.com | +1 555-1001<br>
+              <strong>Rating:</strong> 3.5
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Heavy-Duty Bolt 2</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> FastenPro 2<br>
+              <strong>Cost:</strong> $110 per unit<br>
+              <strong>Contact:</strong> contact2@fastenpro.com | +1 555-1002<br>
+              <strong>Rating:</strong> 4.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Heavy-Duty Bolt 3</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> FastenPro 3<br>
+              <strong>Cost:</strong> $115 per unit<br>
+              <strong>Contact:</strong> contact3@fastenpro.com | +1 555-1003<br>
+              <strong>Rating:</strong> 3.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Heavy-Duty Bolt 4</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> FastenPro 4<br>
+              <strong>Cost:</strong> $120 per unit<br>
+              <strong>Contact:</strong> contact4@fastenpro.com | +1 555-1004<br>
+              <strong>Rating:</strong> 3.5
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Heavy-Duty Bolt 5</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> FastenPro 5<br>
+              <strong>Cost:</strong> $125 per unit<br>
+              <strong>Contact:</strong> contact5@fastenpro.com | +1 555-1005<br>
+              <strong>Rating:</strong> 4.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Heavy-Duty Bolt 6</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> FastenPro 6<br>
+              <strong>Cost:</strong> $130 per unit<br>
+              <strong>Contact:</strong> contact6@fastenpro.com | +1 555-1006<br>
+              <strong>Rating:</strong> 3.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Heavy-Duty Bolt 7</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> FastenPro 7<br>
+              <strong>Cost:</strong> $135 per unit<br>
+              <strong>Contact:</strong> contact7@fastenpro.com | +1 555-1007<br>
+              <strong>Rating:</strong> 3.5
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Heavy-Duty Bolt 8</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> FastenPro 8<br>
+              <strong>Cost:</strong> $140 per unit<br>
+              <strong>Contact:</strong> contact8@fastenpro.com | +1 555-1008<br>
+              <strong>Rating:</strong> 4.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Heavy-Duty Bolt 9</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> FastenPro 9<br>
+              <strong>Cost:</strong> $145 per unit<br>
+              <strong>Contact:</strong> contact9@fastenpro.com | +1 555-1009<br>
+              <strong>Rating:</strong> 3.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Heavy-Duty Bolt 10</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> FastenPro 10<br>
+              <strong>Cost:</strong> $150 per unit<br>
+              <strong>Contact:</strong> contact10@fastenpro.com | +1 555-1010<br>
+              <strong>Rating:</strong> 3.5
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Heavy-Duty Bolt 11</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> FastenPro 11<br>
+              <strong>Cost:</strong> $155 per unit<br>
+              <strong>Contact:</strong> contact11@fastenpro.com | +1 555-1011<br>
+              <strong>Rating:</strong> 4.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Heavy-Duty Bolt 12</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> FastenPro 12<br>
+              <strong>Cost:</strong> $160 per unit<br>
+              <strong>Contact:</strong> contact12@fastenpro.com | +1 555-1012<br>
+              <strong>Rating:</strong> 3.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Heavy-Duty Bolt 13</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> FastenPro 13<br>
+              <strong>Cost:</strong> $165 per unit<br>
+              <strong>Contact:</strong> contact13@fastenpro.com | +1 555-1013<br>
+              <strong>Rating:</strong> 3.5
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Heavy-Duty Bolt 14</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> FastenPro 14<br>
+              <strong>Cost:</strong> $170 per unit<br>
+              <strong>Contact:</strong> contact14@fastenpro.com | +1 555-1014<br>
+              <strong>Rating:</strong> 4.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Heavy-Duty Bolt 15</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> FastenPro 15<br>
+              <strong>Cost:</strong> $175 per unit<br>
+              <strong>Contact:</strong> contact15@fastenpro.com | +1 555-1015<br>
+              <strong>Rating:</strong> 3.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Heavy-Duty Bolt 16</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> FastenPro 16<br>
+              <strong>Cost:</strong> $180 per unit<br>
+              <strong>Contact:</strong> contact16@fastenpro.com | +1 555-1016<br>
+              <strong>Rating:</strong> 3.5
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Heavy-Duty Bolt 17</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> FastenPro 17<br>
+              <strong>Cost:</strong> $185 per unit<br>
+              <strong>Contact:</strong> contact17@fastenpro.com | +1 555-1017<br>
+              <strong>Rating:</strong> 4.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Heavy-Duty Bolt 18</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> FastenPro 18<br>
+              <strong>Cost:</strong> $190 per unit<br>
+              <strong>Contact:</strong> contact18@fastenpro.com | +1 555-1018<br>
+              <strong>Rating:</strong> 3.0
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Heavy-Duty Bolt 19</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> FastenPro 19<br>
+              <strong>Cost:</strong> $195 per unit<br>
+              <strong>Contact:</strong> contact19@fastenpro.com | +1 555-1019<br>
+              <strong>Rating:</strong> 3.5
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <div class="card-body">
+            <h5 class="card-title product-header">Heavy-Duty Bolt 20</h5>
+            <p class="card-text">
+              <strong>Supplier:</strong> FastenPro 20<br>
+              <strong>Cost:</strong> $200 per unit<br>
+              <strong>Contact:</strong> contact20@fastenpro.com | +1 555-1020<br>
+              <strong>Rating:</strong> 4.0
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
